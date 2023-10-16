@@ -1,4 +1,2 @@
-// #!/usr/bin/node
-let first = "C"
-let second = "cool"
-console.log(first + "is" + second);
+#!/usr/bin/node
+console.log(process.argv[2] + ' is ' + process.argv[3]);
